@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	content="width=device-width,user-scalable=no, initial-scale=1">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/fullPage.css">
+</head>
+<body>
+<div id="fullpage">
+	<section class="section page01 main">
+		<img src="images/logo.png">
+		<h1 class="color-blue">2016年成人学历报考查询</h1>
+		<h3 class="color-red">自考丨成人高考丨远程教育</h3>
+		<ul>
+			<li><a href="#">报名时间</a></li>
+			<li><a href="#">报名流程</a></li>
+			<li><a href="#">考试科目</a></li>
+			<li><a href="#">如何缴费</a></li>
+		</ul>
+		<div class="btn">
+			<a href="#">新版报考咨询</a>
+		</div>
+	</section>
+	<section class="section page02 main">
+		<h1 class="color-blue">2016年学历报考考试时间（一览表）</h1>
+		<h3 class="color-red">自考丨成人高考丨远程教育</h3>
+		<ul>
+			<li><a href="#">四川省高等教育自学考试&nbsp;8月报名开始</a></li>
+			<li><a href="#">四川省成人高考&nbsp;8月报名开始</a></li>
+			<li><a href="#">成都市成人函授教育&nbsp;8月报名开始</a></li>
+		</ul>
+		<div class="btn">
+			<a href="#">点击查询</a>
+		</div>
+		<p>*10月9截止报名*</p>
+		<img src="images/nh.png">
+	</section>
+	<section class="section page03 main">
+		<h1 class="color-blue">2016年成人学历考试解析</h1>
+		<ul>
+			<li><a href="#">高等教育自学考试：科目学分制。选择题、简答题。满分100分，60分及格</a></li>
+			<li><a href="#">成人高考：入学测试和分数化档。入学测试计算机、数学、英语，期中末考试按分化档</a></li>
+			<li><a href="#">成人函授教育及电大：入学测试和科目学分制。入学测试计算机、数学，科目满分100，60分及格</a></li>
+		</ul>
+		<div class="btn3">
+			<a href="#">点击咨询</a>
+		</div>
+		<img src="images/nh2.png">
+	</section>
+	<section class="section page04 main">
+		<h1 class="color-blue">免费资料与题库领取</h1>
+		<h3 class="color-red">可向咨询老师免费申请相关资料</h3>
+		<ul>
+			<li><a href="#">四川省历年自考试题及答案分析</a></li>
+			<li><a href="#">函授教育及电大题海题库</a></li>
+			<li><a href="#">2016年学籍考生备考指导资料</a></li>
+		</ul>
+		<div class="btn">
+			<a href="#">点击申请资料</a>
+		</div>
+		<img src="images/nh_xf.png">
+	</section>
+	<section class="section page05 main">
+		<h1 class="color-blue">免费学历报考咨询指导</h1>
+		<h3 class="color-red">高起专丨高起本丨专升本</h3>
+		<ul>
+			<li><a href="#">自考报考一对一老师预约指导</a></li>
+			<li><a href="#">函授教育一对一老师预约指导</a></li>
+			<li><a href="#">成人高考一对一老师预约指导</a></li>
+		</ul>
+		<div class="btn">
+			<a href="#">点击申请资料</a>
+		</div>
+		<img src="images/nh3_z.png">
+	</section>
+	<section class="section page06 main">
+		<h1 class="color-blue">0基础学本科常见问题汇总</h1>
+		<ul>
+			<li><a href="#">1：哪种成人学历含金量高？认可度高？</a></li>
+			<li><a href="#">2：自考学历通过率高吗？难吗？</a></li>
+			<li><a href="#">3：自考学费要多少钱？后期还会有其他费用吗?</a></li>
+			<li><a href="#">4：上班族也能学吗？怎么安排时间？</a></li>
+			<li><a href="#">5:2016年的自考报考条件是什么？</a></li>
+			<li><a href="#">6:0基础如何拿本科？</a></li>
+			<li><a href="#">7：初中学历也可以直接拿本科吗？</a></li>
+			<li><a href="#">8：听说你们能代报名，是真的吗？</a></li>
+			<li><a href="#">9：我要在哪上课？</a></li>
+		</ul>
+		<div class="btn">
+			<a href="#">免费回电解答</a>
+		</div>
+	</section>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.fullPage.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#fullpage").fullpage({
+			verticalCentered:false,
+			navigation:true,
+			loopBottom:true,
+			loopTop:true,
+			afterLoad:function(anchorLink,index)
+			{
+				if(index === 1)
+				{
+					$(".page01 h1").addClass("animated flash");
+					$(".page01 h3").addClass("animated slideInLeft");
+					$(".page01 h3").css("animation-delay","0.5s");
+					$(".page01 .btn").addClass("animated swing");
+					$(".page01 ul li:nth-child(2n)").addClass("animated fadeInLeft");
+					$(".page01 ul li:nth-child(2n+1)").addClass("animated fadeInRight");
+					$(".page01 ul li:nth-child(1)").css("animation-delay","0.2s");
+					$(".page01 ul li:nth-child(2)").css("animation-delay","0.4s");
+					$(".page01 ul li:nth-child(3)").css("animation-delay","0.6s");
+					$(".page01 ul li:nth-child(4)").css("animation-delay","0.8s");
+				}
+				else if(index===2)
+				{
+					$(".page02 h1").addClass("animated flash");
+					$(".page02 h3").addClass("animated slideInLeft");
+					$(".page02 h3").css("animation-delay","0.5s");
+					$(".page02 .btn").addClass("animated swing");
+					$(".page02 ul li:nth-child(1)").addClass("animated bounceInLeft");
+					$(".page02 ul li:nth-child(2)").addClass("animated bounceInRight");
+					$(".page02 ul li:nth-child(3)").addClass("animated fadeInLeft");
+				}
+				else if(index===3)
+				{
+					$(".page03 h1").addClass("animated flash");
+					$(".page03 .btn").addClass("animated swing");
+					$(".page03 ul li:nth-child(1)").addClass("animated rotateInDownLeft");
+					$(".page03 ul li:nth-child(1)").css("animation-delay","0.1s");
+					$(".page03 ul li:nth-child(2)").addClass("animated rotateInDownRight");
+					$(".page03 ul li:nth-child(2)").css("animation-delay","0.3s");
+					$(".page03 ul li:nth-child(3)").addClass("animated rotateInDownLeft");
+					$(".page03 ul li:nth-child(3)").css("animation-delay","0.5s");
+				}
+				else if(index===4)
+				{
+					$(".page04 h1").addClass("animated flash");
+					$(".page04 h3").addClass("animated slideInLeft");
+					$(".page04 h3").css("animation-delay","0.5s");
+					$(".page04 .btn").addClass("animated swing");
+					$(".page04 ul li:nth-child(1)").addClass("animated slideInLeft");
+					$(".page04 ul li:nth-child(2)").addClass("animated slideInRight");
+					$(".page04 ul li:nth-child(3)").addClass("animated slideInLeft");
+				}
+				else if(index===5)
+				{
+					$(".page05 h1").addClass("animated flash");
+					$(".page05 h3").addClass("animated slideInLeft");
+					$(".page05 h3").css("animation-delay","0.5s");
+					$(".page05 .btn").addClass("animated swing");
+					$(".page05 ul li:nth-child(1)").addClass("animated slideInRight");
+					$(".page05 ul li:nth-child(2)").addClass("animated slideInLeft");
+					$(".page05 ul li:nth-child(3)").addClass("animated slideInRight");
+				}
+				else if(index===6)
+				{
+					$(".page06 h1").addClass("animated flash");
+					$(".page06 h3").addClass("animated slideInLeft");
+					$(".page06 h3").css("animation-delay","0.5s");
+					$(".page06 .btn").addClass("animated swing");
+					$(".page06 ul li:nth-child(2n)").addClass("animated slideInRight");
+					$(".page06 ul li:nth-child(2n+1)").addClass("animated slideInLeft");
+					$(".page06 ul li:nth-child(1)").css("animation-delay","0.2s");
+					$(".page06 ul li:nth-child(2)").css("animation-delay","0.4s");
+					$(".page06 ul li:nth-child(3)").css("animation-delay","0.6s");
+					$(".page06 ul li:nth-child(4)").css("animation-delay","0.8s");
+					$(".page06 ul li:nth-child(5)").css("animation-delay","1s");
+					$(".page06 ul li:nth-child(6)").css("animation-delay","1.2s");
+					$(".page06 ul li:nth-child(7)").css("animation-delay","1.4s");
+					$(".page06 ul li:nth-child(8)").css("animation-delay","1.6s");
+					$(".page06 ul li:nth-child(9)").css("animation-delay","1.8s");
+				}
+			},
+		});
+	});
+</script>
+</body>
+</html>

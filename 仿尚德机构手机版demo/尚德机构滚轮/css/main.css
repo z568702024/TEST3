@@ -1,0 +1,245 @@
+body{
+    font-family: "微软雅黑";
+}
+html,body{
+    font-size: 22px;
+}
+
+@media (min-width: 321px) {
+    html,body{
+        font-size: 26px;
+    }
+}
+
+
+@media (min-width: 376px) {
+    html,body{
+        font-size: 28px;
+    }
+}
+
+
+.color-red{
+    color: #e93a57;
+}
+.color-white{
+    color: #fefefe;
+}
+.btn{
+    text-align: center;
+    margin: 2rem 0rem 2rem 0rem;
+}
+.btn a{
+    padding: 0.5rem 1.1rem;
+    background-color: #2c3242;
+    color: #fafafa;
+    font-size: 1rem;
+    display: inline-block;
+    text-decoration: none;
+    animation-delay:1s;
+}
+
+.page01{
+    max-width: 32rem;
+    margin: auto;
+    background-color: #fafafa;
+    overflow: hidden
+}
+.page01 img{
+    width:100%;
+    display: block;
+    vertical-align: middle;
+}
+.page01 h1{
+    font-size: 1.6rem;
+    text-align: center;
+    color: #3a3a3a;
+    margin-top: -6rem;
+}
+.page01 h3{
+    text-align: center;
+    font-size: 1rem;
+    color: #3a3a3a;
+    font-weight: normal;
+    margin-top: 1rem;
+    line-height: 1.6rem;
+}
+.main{
+    max-width: 32rem;
+    margin: auto;
+}
+.main h1{
+    font-size: 1.25rem;
+    color: #3a3a3a;
+    text-align: center;
+    line-height: 2.15rem;
+    padding-top: 1rem;
+}
+.main .color-red{
+    color: #e93a57;
+}
+.main h3{
+    text-align: center;
+    font-size: 1rem;
+    color: #3a3a3a;
+    font-weight: normal;
+}
+.main p{
+    color: #3a3a3a;
+    font-size: 0.7rem;
+    line-height: 1.1rem;
+    width: 90%;
+    margin: auto;
+}
+.page02 ul li{
+    list-style: none;
+    display: inline-block;
+    width: 4.2rem;
+    height: 1.55rem;
+    background-color: #646363;
+    text-align: center;
+    line-height: 1.55rem;
+    margin-left: 0.1rem;
+    margin-bottom: 0.1rem;
+}
+.page02 ul li:nth-child(2n){
+    background-color: #df6363;
+}
+.page02 ul li:nth-child(3){
+    background-color: #7ac470;
+}
+.page02 ul li:nth-child(6){
+    background-color: #66c5e4;
+}
+.page02 ul li:nth-child(7){
+    background-color: #ffc001;
+}
+.page02 ul li:nth-child(8){
+    background-color: #7ac470;
+}
+.page02 ul{
+    padding: 0;
+    font-size: 0;
+    width: 12.9rem;
+    margin: auto;
+}
+.page02 ul li a{
+    color: #fafafa;
+    font-size: 0.65rem;
+    text-decoration: none;
+
+}
+.page03{
+    background-color: #f1f1f1;
+    overflow: hidden;
+}
+.page03 .title{
+    width: 10.5rem;
+    height: 4.55rem;
+    border: 1px solid #3a3a3a;
+    margin: 0.85rem auto;
+    position: relative;
+}
+.page03 .title h2{
+    font-size: 1.1rem;
+    color: #3a3a3a;
+    position: absolute;
+    padding: 0rem 0.3rem;
+    background-color: #f1f1f1;
+    left: 50%;
+    margin-left: -2.75rem;
+    top: -1.6rem;
+}
+.page03 .title p{
+    text-align: center;
+    margin-top: 1.3rem;
+}
+.page04 ul
+{
+    padding: 0;
+}
+.page04 ul li
+{
+    list-style: none;
+}
+.page04 ul li a
+{
+    display: block;
+    width:95%;
+    margin: auto;
+    height: 1.25rem;
+    line-height: 1.4rem;
+    background-color: #eaeaea;
+    text-decoration: none;
+    color: #3a3a3a;
+    font-size: 0.63rem;
+    margin-top: 0.275rem;
+    text-indent: 0.375rem;
+}
+.page04 ul li:nth-child(2n) a
+{
+    color:#ed3654;
+}
+
+
+.page05{
+    background-color: #f1f1f1;
+    overflow: hidden;
+}
+.page05 ul
+{
+    padding:0;
+	font-size: 0;
+	text-align: center;
+}
+.page05 ul li
+{
+	
+	list-style: none;
+    display: inline-block;
+    width: 5.5rem;
+    height: 1.4rem;
+    line-height: 1.625rem;
+    text-align: center;
+    margin:0.35rem 0.4625rem;
+    border: 0.025rem solid #060606;
+}
+.page05 ul li p
+{
+    height: 1.375rem;
+	color: #2c3242;
+}
+
+
+.page06 h3
+{
+	text-align: center;
+    font-size: 1rem;
+    color: #3a3a3a;
+    font-weight: normal;
+    margin-top: 1rem;
+    line-height: 1.6rem;
+}
+.page06
+{
+    max-width: 32rem;
+    margin: auto;
+    background-color: #f1f1f1;
+    overflow: hidden
+}
+.page06 img
+{
+    width:85%;
+    margin: 0 auto;
+    display: block;
+    vertical-align: middle;
+}
+
+.page07{
+    background-color: #c12d3b;
+    overflow: hidden;
+}
+.page07 p
+{
+	text-align: center;
+}

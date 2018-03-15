@@ -1,0 +1,312 @@
+body
+{
+    font-family: "微软雅黑";
+}
+html,body
+{
+    font-size: 22px;
+}
+@media (min-width: 321px) {
+    html,body
+    {
+        font-size: 26px;
+    }
+}
+
+
+@media (min-width: 376px) {
+    html,body
+    {
+        font-size: 28px;
+    }
+}
+.color-blue
+{
+	color: #14798d;
+}
+.color-red
+{
+	color: #ff0000;
+}
+.btn
+{
+	text-align: center;
+	margin: 0.5rem 0rem 1.4rem 0rem;
+}
+.btn a
+{
+	display: inline-block;
+	width: 10rem;
+	height: 2rem;
+	font-size: 1rem;
+	line-height: 1.75rem;
+	color: #fff;
+	background-color: #de0060;
+	border: 1px solid #de0060;
+	border-radius: 4px;
+	text-decoration: none;
+}
+.main h1
+{
+	padding: 0 1.15rem;
+    margin-top: 0.7rem;
+    font-size: 1rem;
+    text-align: center;
+}
+.main h3
+{
+	margin: 0.5rem 0;
+	font-size: 0.9rem;
+	text-align: center;
+}
+.page01
+{
+	background-color: #f5f5f5;
+	overflow: hidden;
+}
+.page01 img
+{
+	padding: 0;
+	margin-left: 3.6rem;
+	margin-top: 0.725rem;
+	width: 50%;
+	display: block;
+}
+.page01 ul
+{
+	list-style: none;
+	width: 13rem;
+	margin:0 auto;
+	padding:0;
+}
+.page01 ul li
+{
+	width: 12.75rem;
+	height: 2rem;
+	line-height: 1.8rem;
+	text-align: center;
+	display: inline-block;
+	border:1px solid #3874fe;
+	border-radius: 2px;
+	background-color: #3874fe;
+	margin:0.4rem 0;
+}
+.page01 ul li:nth-child(odd)
+{
+	border:1px solid #be1010;
+	background-color: #be1010;
+}
+.page01 ul li a 
+{
+	color: #fff;
+	font-size: 1rem;
+	text-decoration: none;
+}
+
+.page02
+{
+	background-color: #f7f7f7;
+	overflow: hidden;
+}
+.page02 ul
+{
+	list-style: none;
+	width: 13rem;
+	margin:0 auto;
+	padding:0;
+
+}
+.page02 ul li 
+{
+	width: 12.75rem;
+	height: 1.8rem;
+	line-height: 1.7rem;
+	display: inline-block;
+	text-align: center;
+	background-color : #d6e2fd;
+	margin:0.4rem 0;
+}
+.page02 ul li a
+{
+	font-size: 0.6rem;
+	font-weight: bold;
+	color: #000;
+	text-decoration: none;
+}
+.page02 p
+{
+	margin-top: -1rem;
+	font-size: 1rem;
+	text-align: center;
+}
+.page02 img
+{
+	width: 83%;
+	display:block;
+	margin: 0 auto;	
+}
+.page03
+{
+	background-color: #f4efe9;
+	overflow: hidden;
+}
+.page03 ul
+{
+	padding: 0;
+	text-align: center;
+	margin: 0 1.6rem;
+	list-style: none;
+	font-size: 0;
+}
+.page03 ul li
+{
+	text-align: center;
+	display: inline-block;
+	margin-bottom: 0.7rem;
+	background-color: #62cf38;
+}
+.page03 ul li:nth-child(2)
+{
+	background-color: #11c8ea;
+}
+.page03 ul li:nth-child(3)
+{
+	background-color: #ff8106;
+}
+.page03 ul li a 
+{
+	padding: 0.65rem 0.775rem;
+	display: inline-block;
+	color: #fff;
+	line-height: 1.1rem;
+	font-size: 0.65rem;
+	text-decoration: none;
+}
+.page03 img
+{
+	width: 55%;
+	display: block;
+	margin: 0 auto;
+}
+.btn3
+{
+	text-align: center;
+	margin: 0.5rem 0rem 1rem 0rem;
+}
+.btn3 a
+{
+	display: inline-block;
+	width: 10rem;
+	height: 1.8rem;
+	font-size: 1rem;
+	line-height: 1.75rem;
+	color: #fff;
+	background-color: #de0060;
+	border: 1px solid #de0060;
+	border-radius: 4px;
+	text-decoration: none;
+}
+.page04
+{
+	overflow: hidden;
+	background-color: #f5f5f5;
+}
+.page04 h4
+{
+	padding: 1rem 0;
+	font-size: 0.9rem;
+	text-align: center;
+}
+.page04 ul
+{
+	list-style: none;
+}
+.page04 ul li
+{
+	width: 12.75rem;
+	height: 1.8rem;
+	text-align: center;
+	line-height: 1.5rem;
+	display: inline-block;
+	background-color: #f3f3f3;
+	margin: 0.7rem -1rem;
+}
+.page04 ul li a
+{
+	font-size: 0.8rem;
+	color:#404040;
+	text-decoration: none;
+}
+.page04 img
+{
+	width: 78%;
+	display: block;
+	margin: 0 auto;
+}
+.page05
+{
+	overflow: hidden;
+	background-color: #f9f9f9;
+}
+.page05 h4
+{
+	padding: 1rem 0;
+	font-size: 0.9rem;
+	text-align: center;
+}
+.page05 ul
+{
+	list-style: none;
+}
+.page05 ul li
+{
+	width: 12.75rem;
+	height: 1.8rem;
+	text-align: center;
+	line-height: 1.5rem;
+	display: inline-block;
+	background-color: #f3f3f3;
+	margin: 0.6rem -1rem;
+}
+.page05 ul li a
+{
+	font-size: 0.8rem;
+	color:#404040;
+	text-decoration: none;
+}
+.page05 img
+{
+	display: block;
+	width: 69%;
+	margin: 0 auto;
+}
+.page06
+{
+	overflow: hidden;
+	background-color: #f4efe9;
+}
+ .page06 ul
+{
+	padding: 0;
+	margin-top: 1.25rem;
+	text-align: center;
+	list-style: none;
+	font-size: 0；
+}
+.page06 ul li
+{
+	width: 12.5rem;
+	margin-bottom: 0.5rem;
+	display: inline-block;
+	text-align: left;
+	padding-left: 0.25rem;
+	background-color: #f3f3f3;
+	box-shadow: 0.15rem 0.375rem 1px 1px #ededed;
+}
+.page06 ul li a
+{
+	font-size: 0.7rem;
+	color:#2a2a2a;
+	line-height: 1.1rem;
+	text-decoration: none;
+}
